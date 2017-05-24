@@ -1,0 +1,5 @@
+rootProject.name = 'route-guide'
+include 'protos'
+include 'server'
+include 'client'
+

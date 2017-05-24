@@ -1,0 +1,4 @@
+rootProject.name="server"
+
+include ':protos'
+project(':protos').projectDir = new File('../protos')
