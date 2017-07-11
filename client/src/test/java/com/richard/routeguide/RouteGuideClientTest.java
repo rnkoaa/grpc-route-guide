@@ -73,7 +73,7 @@ public class RouteGuideClientTest {
     public void getFeature() {
         Point requestPoint = Point.newBuilder().setLatitude(-1).setLongitude(-1).build();
         Point responsePoint = Point.newBuilder().setLatitude(-123).setLongitude(-123).build();
-        final AtomicReference<Point> pointDelivered = new AtomicReference<Point>();
+        final AtomicReference<Point> pointDelivered = new AtomicReference<>();
         final Feature responseFeature =
                 Feature.newBuilder().setName("dummyFeature").setLocation(responsePoint).build();
 
