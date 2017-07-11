@@ -1,5 +1,6 @@
 package com.richard.routeguide;
 
+import com.google.common.annotations.VisibleForTesting;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 
@@ -32,7 +33,8 @@ public class RouteGuideServer {
     /**
      * Create a RouteGuide server using serverBuilder as a base and features as data.
      */
-    private RouteGuideServer(ServerBuilder<?> serverBuilder, int port, Collection<Feature> features) {
+    @VisibleForTesting
+    RouteGuideServer(ServerBuilder<?> serverBuilder, int port, Collection<Feature> features) {
         this.port = port;
         server = serverBuilder.addService(new RouteGuideService(features))
                 .build();
@@ -58,7 +60,7 @@ public class RouteGuideServer {
     /**
      * Stop serving requests and shutdown resources.
      */
-    private void stop() {
+    void stop() {
         if (server != null) {
             server.shutdown();
         }

@@ -5,13 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client.iml" group="client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_main.iml" group="client" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_test.iml" group="client" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protos.iml" filepath="$PROJECT_DIR$/.idea/modules/protos.iml" group="protos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protos/protos.iml" filepath="$PROJECT_DIR$/.idea/modules/protos/protos.iml" group="protos" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protos/protos_main.iml" filepath="$PROJECT_DIR$/.idea/modules/protos/protos_main.iml" group="protos" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/protos/protos_test.iml" filepath="$PROJECT_DIR$/.idea/modules/protos/protos_test.iml" group="protos" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/route-guide.iml" filepath="$PROJECT_DIR$/.idea/modules/route-guide.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/route-guide_main.iml" filepath="$PROJECT_DIR$/.idea/modules/route-guide_main.iml" group="route-guide" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/route-guide_test.iml" filepath="$PROJECT_DIR$/.idea/modules/route-guide_test.iml" group="route-guide" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server.iml" group="server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" group="server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" group="server" />
     </modules>
